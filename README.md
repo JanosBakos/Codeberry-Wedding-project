@@ -1,2 +1,2 @@
 # Codeberry-Wedding-project
-Responsive wedding webpsite
+Responsive wedding website
