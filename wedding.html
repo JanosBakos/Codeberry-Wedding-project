@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="hu-HU">
 <head>
-  <title>Zoe &amp; Alex</title>
+  	<title>Zoe &amp; Alex</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="images/wedding-landing-favicon.png">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link rel="stylesheet" type="text/css" href="wedding.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" type="text/css" href="wedding.css">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7CMuli:400,700%7CLibre+Baskerville:300,400,700" rel="stylesheet">
 </head>
 <body>
     <header class="cover">
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#contact" class="active">Contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#gifts">Gifts</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#locations">Locations</a></li>
+        </ul>
+      </nav>
       <div class="header-text-wrapper">
         <div class="header-text">
           <div class="tagline">We're getting married!</div>
@@ -20,27 +29,30 @@
       </div>
     </header>
 <main>
+  <div id="locations">
   <section class="locations">
     <h2>Locations</h2>
       <div class="blurb">
         <h3>Ceremony</h3>
-        <img src="images/wedding-landing-ceremony.png" alt="Ceremony"> 
+        <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-ceremony.png" alt="Ceremony"> 
       <div>St. Nicholas Church</div>
       <div>2 Trinity Square, Budapest</div>
       </div>
       <div class="blurb">
         <h3>Photos</h3>
-        <img src="images/wedding-landing-photoshoot.png" alt="Photo">
+        <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-photoshoot.png" alt="Photo">
       <div>Liberty Bastion</div>
       <div>23 Wisdom Road, Budapest</div>
       </div>
       <div class="blurb">
         <h3>Party</h3>
-        <img src="images/wedding-landing-party.png" alt="Party">
+        <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-party.png" alt="Party">
       <div>Heaven Lounge</div>
       <div>14 Fairy Street, Budapest</div>
       </div>
   </section>
+  </div>
+  <div id="program">
   <section class="program">
     <h2>Program</h2>
     <div class="program-wrapper">
@@ -55,12 +67,15 @@
       </ul>
     </div>  
   </section>
+  <div id="gifts">
   <section class="gifts">
     <h2>Gifts</h2>
     <p>The greatest gift for us is to have you there.</p>
-    <img src="images/wedding-landing-gifts.png" alt="Gifts">
+    <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-gifts.png" alt="Gifts">
     <p>Please, just bring yourself and have fun with us.</p>
   </section>
+  </div>
+  <div id="faq">
   <section class="faq">
     <h2>Questions and Answers</h2>
     <div class="question-group">
@@ -91,12 +106,15 @@
       <p class="answer">We love dogs and you can absolutely bring yours. The Heaven Lounge is a dog-friendly place.</p>
     </div>
   </section>
+  </div>
+  <div id="contact">
   <section class="contact">
     <h2>Contact</h2>
     <p>If you have any questions feel free to call / write us.</p>
     <p>Phone: <a href="+36 30 000 0000">+36 30 000 0000</a> (Zoe) / <a href="+36 30 000 0000">+36 30 000 0000</a> (Alex)</p>
     <p>Email: <a href="zoeandalex@awesomemail.com">zoeandalex@awesomemail.com</a></p>
   </section>
+  </div>
 </main>
 <footer>
   <div class="wrapper">
@@ -104,6 +122,7 @@
 	<small>Made with ♥ in Budapest ©2018 | Icons by <a href="http://www.flaticon.com/authors/becris" title="Becris">Becris</a> (<a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>)</small>
 	</p>
   </div> 
-</footer>	
+</footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 </html>

@@ -88,6 +88,57 @@ a:hover {
   transition: color .15s ease-in-out;
 }
 
+/*TOP NAVIGATION STYLES*/
+
+#nav-menu {
+  position: absolute;
+  background: transparent;
+  top:0;
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+}
+
+ul li {
+  display: inline;
+  padding: 0.5rem;
+}
+
+#nav-menu a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #d2ba87;
+}
+
+#nav-menu a:hover {
+  color: #bd806e;
+  transition: color .15s ease-in-out;
+}
+
+.active {
+  color: #bd806e;
+  border-bottom: solid 0.1rem;
+  border: 1px grey;
+  border-radius: 9999px;
+}
+
+.active:hover {
+  color: #d2ba87;
+  transition: color .15s ease-in-out;
+}
+
+@media (min-width: 768px) {
+
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 20rem;
+  }
+}
+
+nav {
+  font-size: 0;
+}
+
 /*HEADER STYLES*/
  
 .cover {
