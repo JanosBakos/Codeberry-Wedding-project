@@ -377,7 +377,7 @@ footer {
   font-size: .875rem;
  }
   
-.wrapper {
+.footer-wrapper {
   display: table-cell;
   vertical-align: middle;
   padding: 0.5rem 1rem;
@@ -387,9 +387,8 @@ footer small {
 	line-height: 1.5;
  }
 
-small a {
-    text-decoration: none;
-    color: #bd806e;
+footer p {
+  margin-bottom: 0;
 }
 
 small a:hover {
@@ -399,9 +398,11 @@ small a:hover {
 
 @media (min-width: 768px) {
   .footer {
-    min-height: 6vh;
+    min-height: 7vh;
   }
 }
+
+/*TO THE TOP BUTTON STYLES*/
 
 #return-to-top {
     position: fixed;
